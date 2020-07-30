@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <!---Developed By: Aaron Campbell & Colwyn Elwood--->
+<!-- in partnership with ACCE Developers -->
   <head>
     <!------------------------------------------------------------------------->
     <!---Meta Tags--->
@@ -23,7 +24,7 @@
     <!------------------------------------------------------------------------->
     <!---Navigation Bar Container--->
     <!------------------------------------------------------------------------->
-    <div class="container">
+    <div class="container-fluid p-0">
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
 <a class="navbar-brand" href="#">Tusk Machinery ltd.</a>
@@ -32,9 +33,9 @@
 </button>
 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
   <div class="navbar-nav">
-    <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-    <a class="nav-item nav-link" href="#">Products</a>
-    <a class="nav-item nav-link" href="#">About</a>
+    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+    <a class="nav-item nav-link" href="#caro">Products</a>
+    <a class="nav-item nav-link" a href="#aboutUs">About</a>
     <a class="nav-item nav-link" href="#" tabindex="-1">Contact</a>
   </div>
 </div>
@@ -44,7 +45,7 @@
 <!------------------------------------------------------------------------->
 <!---Image Carousel--->
 <!------------------------------------------------------------------------->
-<div class="container">
+<div class="container-fluid p-0 h-50" id="caro">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -82,15 +83,16 @@
 </div>
 </div>
 <!-- About Tusk Machinery -->
-<div class="container">
+<div class="container-fluid p-0">
 
-    <div class="jumbotron">
+    <div class="jumbotron" id="aboutUs">
   <h1 class="display-4">A little About Us!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <p class="lead">We manufacture and supply high quality farm equipment and agricultural machinery in County Down.
+    Our experienced welders and steel fabricators can design, manufacture and supply all types of equipment, attachments, and implements to customers actross Northern Ireland and the UK</p>
   <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p>Find a product that suits your needs below.</p>
   <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <a class="btn btn-primary btn-lg" href="#" role="button">View More</a>
   </p>
 </div>
 </div>
